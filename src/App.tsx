@@ -1,12 +1,22 @@
 import React from 'react';
 import './App.css';
+import { NavOption } from './NavOption';
 
 function App() {
+
+  const options = [{name: 'Home'}, {name: 'My Files'}, {name: 'Recent Files'},
+  {name: 'Shared Filed'}, {name: 'File Request'}, {name: 'Trash'}]
+
   return (
     <div className="App">
 
       <div className="sidebar">
         <h1>This is a sidebar</h1>
+
+        {options.map( (option) => {
+          return <NavOption name={option.name}></NavOption>
+        })}
+
       </div>
 
       <div className="medium-side">
