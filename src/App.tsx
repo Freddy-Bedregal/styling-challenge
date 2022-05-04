@@ -11,7 +11,8 @@ function App() {
     <div className="App">
 
       <div className="sidebar">
-        <h1>This is a sidebar</h1>
+        
+        <div className='gradient-label'/>
 
         {options.map( (option) => {
           return <NavOption name={option.name}></NavOption>

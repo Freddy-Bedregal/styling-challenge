@@ -52,3 +52,13 @@ code {
   color: #858A9D;
   font-size: 10px;
 }
+
+.gradient-label{
+  width: 74px;
+  height: 21px;
+  background: linear-gradient(270deg, #689EF8 0%, #FF6860 56.25%, #FF9F00 100%);
+  margin-left: 32px;
+  margin-top: 36px;
+  border-radius: 5px;
+  margin-bottom: 61px;
+}
