@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import { ButtonNavLeft } from './components/ButtonNavLeft/ButtonNavLeft';
-import { NavOption } from './components/NavOption/NavOption';
+import { ButtonNavLeft } from './components/LeftSidebar/ButtonNavLeft/ButtonNavLeft';
+import { NavOption } from './components/LeftSidebar/NavOption/NavOption';
 
-import { OptionsLeftBox } from './components/OptionsLeftBox/OptionsLeftBox';
+import { OptionsLeftBox } from './components/LeftSidebar/OptionsLeftBox/OptionsLeftBox';
 
 function App() {
 
