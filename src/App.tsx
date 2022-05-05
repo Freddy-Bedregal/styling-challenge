@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { ButtonNavLeft } from './components/ButtonNavLeft/ButtonNavLeft';
 import { NavOption } from './components/NavOption/NavOption';
 
 import { OptionsLeftBox } from './components/OptionsLeftBox/OptionsLeftBox';
@@ -21,6 +22,8 @@ function App() {
         })}
 
         <OptionsLeftBox></OptionsLeftBox>
+
+        <ButtonNavLeft></ButtonNavLeft>
 
       </div>
 

@@ -1,5 +1,6 @@
 .options-left-box{
     background-color: #464C61;
+    margin-top: 100px;
     margin-left: 28px;
     margin-right: 28px;
     padding: 19px;  
@@ -13,4 +14,10 @@
     width: 15px;
     height: 15px;
     border: 1px solid #FFFFFF;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
