@@ -4,6 +4,7 @@ import { ButtonNavLeft } from './components/LeftSidebar/ButtonNavLeft/ButtonNavL
 import { NavOption } from './components/LeftSidebar/NavOption/NavOption';
 
 import { OptionsLeftBox } from './components/LeftSidebar/OptionsLeftBox/OptionsLeftBox';
+import { SearchBar } from './components/MediumPart/SearchBar/SearchBar';
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
       </div>
 
       <div className="medium-side">
-        <h1>This is medium</h1>
+        <SearchBar></SearchBar>
       </div>
 
       <div className="aside">
