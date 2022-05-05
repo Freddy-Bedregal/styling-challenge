@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import { NavOption } from './NavOption';
+import { NavOption } from './components/NavOption/NavOption';
+
+import { OptionsLeftBox } from './components/OptionsLeftBox/OptionsLeftBox';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         {options.map( (option) => {
           return <NavOption name={option.name}></NavOption>
         })}
+
+        <OptionsLeftBox></OptionsLeftBox>
 
       </div>
 

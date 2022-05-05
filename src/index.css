@@ -34,25 +34,6 @@ code {
   background-color: #F5F6FC;
 }
 
-.square-option{
-  width: 15px;
-  height: 15px;
-  border: 1px solid #FFFFFF;
-}
-
-.nav-option{
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
-  margin: 32px;
-}
-
-.option-name{
-  margin-left: 19px;
-  color: #858A9D;
-  font-size: 10px;
-}
-
 .gradient-label{
   width: 74px;
   height: 21px;
@@ -62,3 +43,4 @@ code {
   border-radius: 5px;
   margin-bottom: 61px;
 }
+

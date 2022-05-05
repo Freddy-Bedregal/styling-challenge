@@ -1,3 +1,5 @@
+import './NavOption.css'
+
 interface Props{
     name: string;
 }
