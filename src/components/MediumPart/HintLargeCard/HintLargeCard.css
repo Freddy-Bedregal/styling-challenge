@@ -1,0 +1,4 @@
+.hint-large-card-container{
+    display: flex;
+    justify-content: space-around;
+}

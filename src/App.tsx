@@ -4,6 +4,10 @@ import { ButtonNavLeft } from './components/LeftSidebar/ButtonNavLeft/ButtonNavL
 import { NavOption } from './components/LeftSidebar/NavOption/NavOption';
 
 import { OptionsLeftBox } from './components/LeftSidebar/OptionsLeftBox/OptionsLeftBox';
+import { CardBig } from './components/MediumPart/CardBig/CardBig';
+import { HintLargeCard } from './components/MediumPart/HintLargeCard/HintLargeCard';
+import { LabelBottom } from './components/MediumPart/LabelBottom/LabelBottom';
+import { LabelTop } from './components/MediumPart/LabelTop/LabelTop';
 import { SearchBar } from './components/MediumPart/SearchBar/SearchBar';
 
 function App() {
@@ -30,6 +34,17 @@ function App() {
 
       <div className="medium-side">
         <SearchBar></SearchBar>
+        <LabelTop></LabelTop>
+        <div className='big-cards-container'>
+          <CardBig></CardBig>
+          <CardBig></CardBig>
+          <CardBig></CardBig>
+        </div>
+
+        <LabelBottom name='Recent Files'></LabelBottom>
+
+        <HintLargeCard></HintLargeCard>
+
       </div>
 
       <div className="aside">

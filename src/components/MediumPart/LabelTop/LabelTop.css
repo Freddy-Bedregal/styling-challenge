@@ -1,0 +1,26 @@
+.label-container{
+    width: auto;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.left-text{
+    font-size: 20px;
+}
+
+.label-left-square{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #BCBECA;
+    margin-left: 16px;
+    margin-left: auto;
+}
+
+.label-left-square-end{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #BCBECA;
+    margin-left: 16px;
+}
