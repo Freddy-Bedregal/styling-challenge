@@ -11,6 +11,7 @@ import { LabelTop } from './components/MediumPart/LabelTop/LabelTop';
 import { LargeCard } from './components/MediumPart/LargeCard/LargeCard';
 import { SearchBar } from './components/MediumPart/SearchBar/SearchBar';
 import { SmallCard } from './components/MediumPart/SmallCard/SmallCard';
+import { Header } from './components/RightSidebar/Header/Header';
 
 function App() {
 
@@ -69,7 +70,8 @@ function App() {
       </div>
 
       <div className="aside">
-        <h1>This is aside</h1>
+        <Header></Header>
+
       </div>
 
     </div>
