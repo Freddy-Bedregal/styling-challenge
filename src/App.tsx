@@ -10,6 +10,7 @@ import { LabelBottom } from './components/MediumPart/LabelBottom/LabelBottom';
 import { LabelTop } from './components/MediumPart/LabelTop/LabelTop';
 import { LargeCard } from './components/MediumPart/LargeCard/LargeCard';
 import { SearchBar } from './components/MediumPart/SearchBar/SearchBar';
+import { SmallCard } from './components/MediumPart/SmallCard/SmallCard';
 
 function App() {
 
@@ -56,6 +57,14 @@ function App() {
         {largeCardOptions.map( (option) => 
           <LargeCard name={option.name} members={option.members} modified={option.modified} color={option.color}></LargeCard>
         )}
+
+        <LabelBottom name='Share with me'></LabelBottom>
+
+        <div className='small-cards-container'>
+          <SmallCard></SmallCard>
+          <SmallCard></SmallCard>
+          <SmallCard></SmallCard>
+        </div>
         
       </div>
 
