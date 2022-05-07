@@ -8,12 +8,20 @@ import { CardBig } from './components/MediumPart/CardBig/CardBig';
 import { HintLargeCard } from './components/MediumPart/HintLargeCard/HintLargeCard';
 import { LabelBottom } from './components/MediumPart/LabelBottom/LabelBottom';
 import { LabelTop } from './components/MediumPart/LabelTop/LabelTop';
+import { LargeCard } from './components/MediumPart/LargeCard/LargeCard';
 import { SearchBar } from './components/MediumPart/SearchBar/SearchBar';
 
 function App() {
 
   const options = [{name: 'Home'}, {name: 'My Files'}, {name: 'Recent Files'},
   {name: 'Shared Filed'}, {name: 'File Request'}, {name: 'Trash'}]
+
+  const largeCardOptions = [
+    {name: 'Travel landing page', members: '5 members', modified: 'Mar 8, 2020', color: '#FF9F00'},
+    {name: 'True Photos', members: '12 members', modified: 'Mar 8, 2020', color: '#4AC29D'},
+    {name: 'Dashboard Structure', members: '10 members', modified: 'Mar 9, 2020', color: '#FF6860'},
+    {name: 'Character Illusstration', members: '3 members', modified: 'Mar 10, 2020', color: '#FF9F00'}
+  ]
 
   return (
     <div className="App">
@@ -45,6 +53,10 @@ function App() {
 
         <HintLargeCard></HintLargeCard>
 
+        {largeCardOptions.map( (option) => 
+          <LargeCard name={option.name} members={option.members} modified={option.modified} color={option.color}></LargeCard>
+        )}
+        
       </div>
 
       <div className="aside">
