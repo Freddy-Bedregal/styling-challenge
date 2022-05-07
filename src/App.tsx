@@ -11,6 +11,9 @@ import { LabelTop } from './components/MediumPart/LabelTop/LabelTop';
 import { LargeCard } from './components/MediumPart/LargeCard/LargeCard';
 import { SearchBar } from './components/MediumPart/SearchBar/SearchBar';
 import { SmallCard } from './components/MediumPart/SmallCard/SmallCard';
+import { Footer } from './components/RightSidebar/Footer/Footer';
+import { Graph } from './components/RightSidebar/Graph/Graph';
+import { GraphDetail } from './components/RightSidebar/GraphDetail/GraphDetail';
 import { Header } from './components/RightSidebar/Header/Header';
 
 function App() {
@@ -72,6 +75,16 @@ function App() {
       <div className="aside">
         <Header></Header>
 
+        <Graph></Graph>  
+
+      <div className='graph-cards-detail-container'>
+        <GraphDetail></GraphDetail>
+        <GraphDetail></GraphDetail>
+        <GraphDetail></GraphDetail>
+        <GraphDetail></GraphDetail>
+      </div>    
+        
+        <Footer></Footer>
       </div>
 
     </div>

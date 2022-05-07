@@ -1,0 +1,44 @@
+.footer-container{
+    width: 194px;
+    height: 202px;
+    padding: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+
+.footer-label{
+    width: 119px;
+    height: 73px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(270.15deg, #689FF8 0.15%, #FF6860 54.7%, #FF9F00 99.9%);
+    border-radius: 11px;      
+}
+
+.footer-title{
+    margin-top: 23px;
+    font-size: 12px;
+}
+
+.footer-description{
+    margin-top: 5px;
+    font-size: 8px;
+    color: #858A9D;
+}
+
+.footer-button{
+    width: 116px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FF9F00;
+    border-radius: 7px;
+    margin-top: 21px;
+}
+
+.footer-button-text{
+    color: #FFFFFF;
+    font-size: 10px;
+}
