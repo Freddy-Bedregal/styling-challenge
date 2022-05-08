@@ -23,10 +23,10 @@ function App() {
   {name: 'Shared Filed'}, {name: 'File Request'}, {name: 'Trash'}]
 
   const largeCardOptions = [
-    {name: 'Travel landing page', members: '5 members', modified: 'Mar 8, 2020', color: '#FF9F00'},
+    {name: 'Travel Landing page', members: '5 members', modified: 'Mar 8, 2020', color: '#FF9F00'},
     {name: 'True Photos', members: '12 members', modified: 'Mar 8, 2020', color: '#4AC29D'},
     {name: 'Dashboard Structure', members: '10 members', modified: 'Mar 9, 2020', color: '#FF6860'},
-    {name: 'Character Illusstration', members: '3 members', modified: 'Mar 10, 2020', color: '#FF9F00'}
+    {name: 'Character Illustration', members: '3 members', modified: 'Mar 10, 2020', color: '#FF9F00'}
   ]
 
   return (

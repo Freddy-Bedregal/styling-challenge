@@ -1,18 +1,19 @@
 .card-small-container{
     width: 159px;
-    height: auto;
-    padding: 10px;
+    height: 79px;
     background-color: white;
     box-shadow: 0px 4px 16px rgba(58, 58, 58, 0.07);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-bottom: 31px;
 }
 
 .card-small-row-icons{
     display: flex;
     justify-content: start;
-    margin-bottom: 6px;
+    margin-left: 11px;
 }
 
 .card-small-orange-square{
@@ -43,6 +44,8 @@
 .card-small-title{
     font-size: 12px;
     text-align: start;
+    margin-top: 6px;
+    margin-left: 11px;
 }
 
 .card-small-detail{
@@ -50,4 +53,5 @@
     color: #858A9D;
     text-align: start;
     margin-top: 2px;
+    margin-left: 11px;
 }
