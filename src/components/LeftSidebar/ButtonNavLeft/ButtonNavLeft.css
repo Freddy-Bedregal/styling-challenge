@@ -5,6 +5,7 @@
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 27px;
     border-radius: 7px;
     display: flex;
     justify-content: space-between;
@@ -17,13 +18,16 @@
 }
 
 .button-icon-text{
-    margin: 11px;
+    display: table;
+    margin: 0 auto;
     color: #FFFFFF;
 }
 
 .button-icon-container{
     background: #FFB233;
-    margin-right: 5px;
+    width: 21px;
+    height: 21px;
+    margin: 7px;
     border-radius: 4px;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { ButtonNavLeft } from './components/LeftSidebar/ButtonNavLeft/ButtonNavLeft';
+import { HeaderLabel } from './components/LeftSidebar/HeaderLabel/HeaderLabel';
 import { NavOption } from './components/LeftSidebar/NavOption/NavOption';
 
 import { OptionsLeftBox } from './components/LeftSidebar/OptionsLeftBox/OptionsLeftBox';
@@ -33,11 +34,13 @@ function App() {
 
       <div className="sidebar">
         
-        <div className='gradient-label'/>
+        <HeaderLabel></HeaderLabel>
 
-        {options.map( (option) => {
-          return <NavOption name={option.name}></NavOption>
-        })}
+        <div className='nav-option-container'>
+          {options.map( (option) => {
+            return <NavOption name={option.name}></NavOption>
+          })}
+        </div>
 
         <OptionsLeftBox></OptionsLeftBox>
 
