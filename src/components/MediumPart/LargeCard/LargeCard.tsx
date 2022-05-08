@@ -19,9 +19,9 @@ export function LargeCard(props: Props){
                 <div className='large-card-members'>{props.members}</div>
                 <div className='large-card-modified'>{props.modified}</div>
                 <div className='large-card-dots'>
-                    <div className='dot'></div>
-                    <div className='dot'></div>
-                    <div className='dot'></div>
+                    <div className='horizontal-dot'></div>
+                    <div className='horizontal-dot'></div>
+                    <div className='horizontal-dot'></div>
                 </div>
             </div>
         </div>

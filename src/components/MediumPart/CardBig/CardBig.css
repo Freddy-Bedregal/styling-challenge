@@ -1,10 +1,12 @@
 .card-big-container{
     width: 159px;
-    height: 133px;
-    padding: 5px;
+    height: auto;
     background-color: white;
     box-shadow: 0px 4px 16px rgba(58, 58, 58, 0.07);
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .row-icons{
@@ -15,9 +17,18 @@
     width: 30px;
     height: 26px;
     background-color:  #FF9F00;
+    position: relative;
+    left: -25px;
+    top: -5px;
 }
 
-.circle{
+.orange-square-shadow{
+    width: 30px;
+    height: 26px;
+    background-color:  #FFD999;
+}
+
+.circle1{
     width: 18px;
     height: 18px;
     background: #FFFFFF;
@@ -25,12 +36,53 @@
     border-radius: 50%;
 }
 
+.circle2{
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    border: 1px solid #BEC0C8;
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+}
+
+.circle3{
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    border: 1px solid #BEC0C8;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+}
+
+.big-card-dots{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    position: relative;
+    top: -7px;
+}
+
+.vertical-dot{
+    width: 3px;
+    height: 3px;
+    background: #C4C4C4;
+    transform: rotate(-90deg);
+    margin: 1px;
+    border-radius: 50%;
+}
+
 .card-title{
     font-size: 12px;
+    text-align: start;
+    margin-top: 25px;
 }
 
 .card-detail{
     font-size: 8px;
     line-height: 9px;
     color: #858A9D;
+    text-align: start;
+    margin-top: 10px;
 }

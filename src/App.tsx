@@ -49,9 +49,9 @@ function App() {
         <SearchBar></SearchBar>
         <LabelTop></LabelTop>
         <div className='big-cards-container'>
-          <CardBig></CardBig>
-          <CardBig></CardBig>
-          <CardBig></CardBig>
+          <CardBig title="App Project" date="Created: 20.02.2020"></CardBig>
+          <CardBig title="Project: fitbit" date="Created: 28.02.2020"></CardBig>
+          <CardBig title="Client Documents" date="Created: 4.03.2020"></CardBig>
         </div>
 
         <LabelBottom name='Recent Files'></LabelBottom>
@@ -65,9 +65,9 @@ function App() {
         <LabelBottom name='Share with me'></LabelBottom>
 
         <div className='small-cards-container'>
-          <SmallCard></SmallCard>
-          <SmallCard></SmallCard>
-          <SmallCard></SmallCard>
+          <SmallCard title="Landing Page"></SmallCard>
+          <SmallCard title="Illustration Pack"></SmallCard>
+          <SmallCard title="CV Design"></SmallCard>
         </div>
         
       </div>

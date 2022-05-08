@@ -1,6 +1,10 @@
 import './SmallCard.css'
 
-export function SmallCard(){
+interface Props{
+    title: string
+}
+
+export function SmallCard(props: Props){
     return (
         <div className='card-small-container'>
             <div className='card-small-row-icons'>
@@ -8,8 +12,8 @@ export function SmallCard(){
                 <div className='card-small-circle'></div>
             </div>
 
-            <p className='card-small-title'>App Project</p>
-            <p className='card-small-detail'>Created: 20.02.2020</p>
+            <span className='card-small-title'>{props.title}</span>
+            <span className='card-small-detail'>Created: 20.02.2020</span>
         </div>
     )
 }
