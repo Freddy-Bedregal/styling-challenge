@@ -1,6 +1,7 @@
 .graph-container{
     width: auto;
     padding: 17px;
+    position: relative;
 }
 
 .graph-title{
@@ -20,13 +21,15 @@
     height: 115px;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    margin-top: 34px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 66px;
+    top: 63px;
 }
 
 .circle-number{
@@ -37,4 +40,11 @@
 .circle-text-under{
     font-size: 14px;
     color: #858A9D;
+}
+
+.container-doughnut{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
