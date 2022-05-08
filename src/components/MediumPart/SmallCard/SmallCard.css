@@ -11,8 +11,7 @@
 
 .card-small-row-icons{
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: start;
     margin-bottom: 6px;
 }
 
@@ -22,12 +21,23 @@
     background-color:  #FF9F00;
 }
 
-.card-small-circle{
+.card-small-circle1{
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+    background: #FFFFFF;
+    border: 1px solid #BEC0C8;
+    border-radius: 50%;
+}
+
+.card-small-circle2{
     width: 18px;
     height: 18px;
     background: #FFFFFF;
     border: 1px solid #BEC0C8;
     border-radius: 50%;
+    position: relative;
+    left: -7px;
 }
 
 .card-small-title{
