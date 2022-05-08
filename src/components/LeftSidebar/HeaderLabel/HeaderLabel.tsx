@@ -1,9 +1,5 @@
-import './HeaderLabel.css'
+import "./HeaderLabel.css";
 
-export function HeaderLabel(){
-    return (
-        <div className='gradient-label'>
-
-        </div>
-    )
+export function HeaderLabel() {
+  return <div className="gradient-label"></div>;
 }

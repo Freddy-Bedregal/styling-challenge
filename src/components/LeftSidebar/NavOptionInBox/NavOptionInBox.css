@@ -1,17 +1,17 @@
-.nav-option-in-box{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
+.nav-option-in-box {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
 }
 
-.option-name-in-box{
-    font-size: 10px;
-    color: #BEC0C8;
-    margin-left: 7px;
+.option-name-in-box {
+  font-size: 10px;
+  color: #bec0c8;
+  margin-left: 7px;
 }
 
-.square{
-    width: 15px;
-    height: 15px;
-    border: 1px solid #FFFFFF;
+.square {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ffffff;
 }

@@ -1,6 +1,5 @@
-import { NavOptionInBox } from "../NavOptionInBox/NavOptionInBox"
-import './OptionsLeftBox.css'
-
+import { NavOptionInBox } from "../NavOptionInBox/NavOptionInBox";
+import "./OptionsLeftBox.css";
 
 export function OptionsLeftBox() {
   const options = [
@@ -8,11 +7,13 @@ export function OptionsLeftBox() {
     { name: "Upload Folder" },
     { name: "New Folder" },
     { name: "More" },
-  ]
+  ];
 
   return (
     <div className="options-left-box">
-        {options.map( (option) => <NavOptionInBox name={option.name}></NavOptionInBox>) }
+      {options.map((option) => (
+        <NavOptionInBox name={option.name}></NavOptionInBox>
+      ))}
     </div>
-  )
+  );
 }

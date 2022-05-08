@@ -1,54 +1,54 @@
-.graph-detail-container{
-    display: flex;
-    flex-direction: column;
+.graph-detail-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.graph-detail-card{
-    display: flex;
-    align-items: center;
+.graph-detail-card {
+  display: flex;
+  align-items: center;
 }
 
-.graph-detail-square{
-    width: 28px;
-    height: 28px;
-    background: #FF9F00;
-    border-radius: 8px; 
+.graph-detail-square {
+  width: 28px;
+  height: 28px;
+  background: #ff9f00;
+  border-radius: 8px;
 }
 
-.graph-detail-text{
-    display: flex;
-    flex-direction: column;
-    margin-left: 7px;
-    align-items: flex-start;
+.graph-detail-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  align-items: flex-start;
 }
 
-.graph-detail-title{
-    font-size: 10px;
+.graph-detail-title {
+  font-size: 10px;
 }
 
-.graph-detail-description{
-    font-size: 8px;
-    color: #858A9D;
-    margin-top: 1px;
+.graph-detail-description {
+  font-size: 8px;
+  color: #858a9d;
+  margin-top: 1px;
 }
 
-.graph-detail-white-container{
-    width: 54px;
-    height: 21px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
+.graph-detail-white-container {
+  width: 54px;
+  height: 21px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
 
-.graph-detail-text-into-white{
-    font-size: 8px;
-    margin-left: auto;
-    margin-right: auto;
+.graph-detail-text-into-white {
+  font-size: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.graph-detail-separation-line{
-    margin-top: 9px;
-    border-top: 1px solid #E0E7F1;
+.graph-detail-separation-line {
+  margin-top: 9px;
+  border-top: 1px solid #e0e7f1;
 }

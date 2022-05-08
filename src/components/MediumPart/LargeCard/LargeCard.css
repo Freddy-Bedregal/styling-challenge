@@ -1,57 +1,57 @@
-.large-card-container{
-    width: auto;
-    height: 42px;
-    margin: 16px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+.large-card-container {
+  width: auto;
+  height: 42px;
+  margin: 16px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left-side-card{
-    width: 50%;
-    display: flex;
-    align-items: center;
+.left-side-card {
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
-.right-side-card{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.right-side-card {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.large-card-square{
-    width: 21px;
-    height: 21px;
-    border-radius: 5px;
-    margin-left: 13px;
+.large-card-square {
+  width: 21px;
+  height: 21px;
+  border-radius: 5px;
+  margin-left: 13px;
 }
 
-.large-card-title{
-    font-size: 12px;
-    margin-left: 12px;
+.large-card-title {
+  font-size: 12px;
+  margin-left: 12px;
 }
 
-.large-card-members{
-    color: #858A9D;
-    font-size: 12px;
+.large-card-members {
+  color: #858a9d;
+  font-size: 12px;
 }
 
-.large-card-modified{
-    color: #858A9D;
-    font-size: 12px;
+.large-card-modified {
+  color: #858a9d;
+  font-size: 12px;
 }
 
-.large-card-dots{
-    display: flex;
+.large-card-dots {
+  display: flex;
 }
 
-.horizontal-dot{
-    width: 3px;
-    height: 3px;
-    background: #C4C4C4;
-    transform: rotate(-90deg);
-    margin: 1px;
-    border-radius: 50%;
+.horizontal-dot {
+  width: 3px;
+  height: 3px;
+  background: #c4c4c4;
+  transform: rotate(-90deg);
+  margin: 1px;
+  border-radius: 50%;
 }

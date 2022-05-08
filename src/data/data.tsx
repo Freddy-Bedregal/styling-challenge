@@ -1,4 +1,4 @@
-export const options = [
+export const navOptionData = [
   { name: "Home" },
   { name: "My Files" },
   { name: "Recent Files" },
@@ -79,3 +79,19 @@ export const graphDetailData = [
     size: "50GB",
   },
 ];
+
+export const graphData = {
+  labels: [],
+  datasets: [
+    {
+      data: [200, 125, 75, 50],
+      backgroundColor: ["#FF9F00", "#689FF8", "#4AC29D", "#BCBECA"],
+      borderWidth: 1,
+      cutout: "90%",
+      borderRadius: 45,
+      rotation: 90,
+      spacing: 15,
+      borderColor: "transparent",
+    },
+  ],
+};

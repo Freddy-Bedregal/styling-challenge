@@ -1,24 +1,23 @@
-.sidebar{
+.sidebar {
   display: flex;
   flex-direction: column;
 }
 
-.nav-option-container{
+.nav-option-container {
   margin-left: 32px;
   margin-top: 66px;
 }
 
-.big-cards-container{
+.big-cards-container {
   display: flex;
   justify-content: space-around;
 }
 
-.small-cards-container{
+.small-cards-container {
   display: flex;
   justify-content: space-around;
 }
 
-.graph-cards-detail-container{
+.graph-cards-detail-container {
   margin: 20px;
 }
-

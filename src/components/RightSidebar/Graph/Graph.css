@@ -1,50 +1,50 @@
-.graph-container{
-    width: auto;
-    padding: 17px;
-    position: relative;
+.graph-container {
+  width: auto;
+  padding: 17px;
+  position: relative;
 }
 
-.graph-title{
-    font-size: 20px;
-    color: #343951;
+.graph-title {
+  font-size: 20px;
+  color: #343951;
 }
 
-.graph-description{
-    font-size: 8px;
-    color: #858A9D;
-    text-align: center;
-    margin-top: 32px;
+.graph-description {
+  font-size: 8px;
+  color: #858a9d;
+  text-align: center;
+  margin-top: 32px;
 }
 
-.circlex{
-    width: 115px;
-    height: 115px;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 66px;
-    top: 63px;
+.inner-white-circle {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 66px;
+  top: 63px;
 }
 
-.circle-number{
-    font-size: 24px;
-    color: #343951;
+.circle-number {
+  font-size: 24px;
+  color: #343951;
 }
 
-.circle-text-under{
-    font-size: 14px;
-    color: #858A9D;
+.circle-text-under {
+  font-size: 14px;
+  color: #858a9d;
 }
 
-.container-doughnut{
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+.container-doughnut {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }

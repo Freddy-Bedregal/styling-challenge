@@ -1,29 +1,29 @@
-.label-container{
-    width: auto;
-    height: 29px;
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    margin-left: 16px;
-    margin-right: 19px;
-    margin-bottom: 23px;
+.label-container {
+  width: auto;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 16px;
+  margin-right: 19px;
+  margin-bottom: 23px;
 }
 
-.left-text{
-    font-size: 20px;
+.left-text {
+  font-size: 20px;
 }
 
-.label-left-square{
-    width: 15px;
-    height: 15px;
-    border: 1px solid #343951;
-    margin-left: 16px;
-    margin-left: auto;
+.label-left-square {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #343951;
+  margin-left: 16px;
+  margin-left: auto;
 }
 
-.label-left-square-end{
-    width: 15px;
-    height: 15px;
-    border: 1px solid #9D9FAF;
-    margin-left: 16px;
+.label-left-square-end {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #9d9faf;
+  margin-left: 16px;
 }
