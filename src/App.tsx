@@ -17,17 +17,13 @@ import { Graph } from './components/RightSidebar/Graph/Graph';
 import { GraphDetail } from './components/RightSidebar/GraphDetail/GraphDetail';
 import { Header } from './components/RightSidebar/Header/Header';
 
+import { options } from './data/data';
+import { largeCardOptions } from './data/data';
+import { cardBigData } from './data/data';
+import { smallCardData } from './data/data';
+import { graphDetailData } from './data/data';
+
 function App() {
-
-  const options = [{name: 'Home'}, {name: 'My Files'}, {name: 'Recent Files'},
-  {name: 'Shared Filed'}, {name: 'File Request'}, {name: 'Trash'}]
-
-  const largeCardOptions = [
-    {name: 'Travel Landing page', members: '5 members', modified: 'Mar 8, 2020', color: '#FF9F00'},
-    {name: 'True Photos', members: '12 members', modified: 'Mar 8, 2020', color: '#4AC29D'},
-    {name: 'Dashboard Structure', members: '10 members', modified: 'Mar 9, 2020', color: '#FF6860'},
-    {name: 'Character Illustration', members: '3 members', modified: 'Mar 10, 2020', color: '#FF9F00'}
-  ]
 
   return (
     <div className="App">
@@ -49,12 +45,15 @@ function App() {
       </div>
 
       <div className="medium-side">
+
         <SearchBar></SearchBar>
+
         <LabelTop></LabelTop>
+
         <div className='big-cards-container'>
-          <CardBig title="App Project" date="Created: 20.02.2020"></CardBig>
-          <CardBig title="Project: fitbit" date="Created: 28.02.2020"></CardBig>
-          <CardBig title="Client Documents" date="Created: 4.03.2020"></CardBig>
+          {cardBigData.map( (data) => {
+            return <CardBig title={data.title} date={data.date}></CardBig>
+          })}
         </div>
 
         <LabelBottom name='Recent Files'></LabelBottom>
@@ -68,9 +67,9 @@ function App() {
         <LabelBottom name='Share with me'></LabelBottom>
 
         <div className='small-cards-container'>
-          <SmallCard title="Landing Page"></SmallCard>
-          <SmallCard title="Illustration Pack"></SmallCard>
-          <SmallCard title="CV Design"></SmallCard>
+          {smallCardData.map( (data) => {
+            return <SmallCard title={data.title}></SmallCard>
+          })}
         </div>
         
       </div>
@@ -81,10 +80,9 @@ function App() {
         <Graph></Graph>  
 
           <div className='graph-cards-detail-container'>
-            <GraphDetail squareColor='#FF9F00' size='200GB'></GraphDetail>
-            <GraphDetail squareColor='#689FF8' size='125GB'></GraphDetail>
-            <GraphDetail squareColor='#4AC29D' size='75GB'></GraphDetail>
-            <GraphDetail squareColor='#BCBECA' size='50GB'></GraphDetail>
+            {graphDetailData.map( (data) => {
+              return <GraphDetail squareColor={data.squareColor} size={data.size}></GraphDetail>
+            })}
          </div>    
         
         <Footer></Footer>
