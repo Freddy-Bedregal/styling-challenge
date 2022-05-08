@@ -1,3 +1,8 @@
+# Finished Challenge
+
+<p align="center">
+<img width="740" alt="screen-finished-challenge" src="https://user-images.githubusercontent.com/102994065/167320089-d8e6f239-801f-40ca-a1b6-caf7fd7d9cf6.png"></p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
