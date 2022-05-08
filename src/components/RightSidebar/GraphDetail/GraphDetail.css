@@ -1,8 +1,11 @@
 .graph-detail-container{
     display: flex;
+    flex-direction: column;
+}
+
+.graph-detail-card{
+    display: flex;
     align-items: center;
-    border-bottom: 1px solid #E0E7F1;
-    margin-bottom: 15px;
 }
 
 .graph-detail-square{
@@ -26,6 +29,7 @@
 .graph-detail-description{
     font-size: 8px;
     color: #858A9D;
+    margin-top: 1px;
 }
 
 .graph-detail-white-container{
@@ -34,8 +38,17 @@
     background-color: #FFFFFF;
     border-radius: 4px;
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .graph-detail-text-into-white{
     font-size: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.graph-detail-separation-line{
+    margin-top: 9px;
+    border-top: 1px solid #E0E7F1;
 }

@@ -81,10 +81,10 @@ function App() {
         <Graph></Graph>  
 
       <div className='graph-cards-detail-container'>
-        <GraphDetail></GraphDetail>
-        <GraphDetail></GraphDetail>
-        <GraphDetail></GraphDetail>
-        <GraphDetail></GraphDetail>
+        <GraphDetail squareColor='#FF9F00' size='200GB'></GraphDetail>
+        <GraphDetail squareColor='#689FF8' size='125GB'></GraphDetail>
+        <GraphDetail squareColor='#4AC29D' size='75GB'></GraphDetail>
+        <GraphDetail squareColor='#BCBECA' size='50GB'></GraphDetail>
       </div>    
         
         <Footer></Footer>
