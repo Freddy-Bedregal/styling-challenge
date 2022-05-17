@@ -7,7 +7,7 @@ interface Props {
 export function NavOptionInBox(props: Props) {
   return (
     <div className="nav-option-in-box">
-      <div className="square"></div>
+      <div className="square"/>
       <span className="option-name-in-box">{props.name}</span>
     </div>
   );

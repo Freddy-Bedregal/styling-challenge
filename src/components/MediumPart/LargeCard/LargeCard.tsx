@@ -14,7 +14,7 @@ export function LargeCard(props: Props) {
         <div
           className="large-card-square"
           style={{ background: props.color }}
-        ></div>
+          />
         <span className="large-card-title">{props.name}</span>
       </div>
 
@@ -22,9 +22,9 @@ export function LargeCard(props: Props) {
         <div className="large-card-members">{props.members}</div>
         <div className="large-card-modified">{props.modified}</div>
         <div className="large-card-dots">
-          <div className="horizontal-dot"></div>
-          <div className="horizontal-dot"></div>
-          <div className="horizontal-dot"></div>
+          <div className="horizontal-dot"/>
+          <div className="horizontal-dot"/>
+          <div className="horizontal-dot"/>
         </div>
       </div>
     </div>

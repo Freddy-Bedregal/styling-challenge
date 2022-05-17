@@ -27,56 +27,57 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar">
-        <HeaderLabel></HeaderLabel>
+        <HeaderLabel/>
 
         <div className="nav-option-container">
           {navOptionData.map((data) => {
-            return <NavOption name={data.name}></NavOption>;
+            return <NavOption name={data.name} key={data.name}/>;
           })}
         </div>
 
-        <OptionsLeftBox></OptionsLeftBox>
+        <OptionsLeftBox/>
 
-        <ButtonNavLeft></ButtonNavLeft>
+        <ButtonNavLeft/>
       </div>
 
       <div className="medium-side">
-        <SearchBar></SearchBar>
+        <SearchBar/>
 
-        <LabelTop></LabelTop>
+        <LabelTop/>
 
         <div className="big-cards-container">
           {cardBigData.map((data) => {
-            return <CardBig title={data.title} date={data.date}></CardBig>;
+            return <CardBig title={data.title} date={data.date} key={data.title}/>;
           })}
         </div>
 
-        <LabelBottom name="Recent Files"></LabelBottom>
+        <LabelBottom name="Recent Files"/>
 
-        <HintLargeCard></HintLargeCard>
+        <HintLargeCard/>
 
         {largeCardOptions.map((option) => (
           <LargeCard
             name={option.name}
+            key={option.name}
             members={option.members}
             modified={option.modified}
             color={option.color}
-          ></LargeCard>
+          />
         ))}
 
-        <LabelBottom name="Share with me"></LabelBottom>
+        <LabelBottom name="Share with me"/>
 
         <div className="small-cards-container">
           {smallCardData.map((data) => {
-            return <SmallCard title={data.title}></SmallCard>;
+            return <SmallCard title={data.title} key={data.title}/>;
           })}
         </div>
       </div>
 
       <div className="aside">
-        <Header></Header>
+        <Header/>
 
-        <Graph></Graph>
+        <Graph/>
 
         <div className="graph-cards-detail-container">
           {graphDetailData.map((data) => {
@@ -84,12 +85,13 @@ function App() {
               <GraphDetail
                 squareColor={data.squareColor}
                 size={data.size}
-              ></GraphDetail>
+                key={data.squareColor}
+              />
             );
           })}
         </div>
 
-        <Footer></Footer>
+        <Footer/>
       </div>
     </div>
   );

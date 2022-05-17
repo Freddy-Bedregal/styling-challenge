@@ -12,7 +12,7 @@ export function OptionsLeftBox() {
   return (
     <div className="options-left-box">
       {options.map((option) => (
-        <NavOptionInBox name={option.name}></NavOptionInBox>
+        <NavOptionInBox name={option.name} key={option.name}/>
       ))}
     </div>
   );

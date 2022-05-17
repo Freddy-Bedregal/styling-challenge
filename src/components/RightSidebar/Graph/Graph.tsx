@@ -11,13 +11,14 @@ export function Graph() {
       <span className="graph-title">Storage</span>
 
       <div className="container-doughnut">
-        <Doughnut data={graphData} options={{ events: [] }} />
+        <Doughnut data={graphData} options={{ events: [] }}/>
+        <div className="inner-white-circle">
+            <span className="circle-number">85%</span>
+            <span className="circle-text-under">Used</span>
+          </div>
+        
       </div>
-
-      <div className="inner-white-circle">
-        <span className="circle-number">85%</span>
-        <span className="circle-text-under">Used</span>
-      </div>
+      
       <div className="graph-description">490.2 GB of 500GB used</div>
     </div>
   );

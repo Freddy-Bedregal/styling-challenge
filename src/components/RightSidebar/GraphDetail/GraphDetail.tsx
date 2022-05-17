@@ -12,7 +12,7 @@ export function GraphDetail(props: Props) {
         <div
           className="graph-detail-square"
           style={{ background: props.squareColor }}
-        ></div>
+          />
 
         <div className="graph-detail-text">
           <div className="graph-detail-title">Documents</div>
@@ -25,7 +25,7 @@ export function GraphDetail(props: Props) {
       </div>
 
       <div className="graph-detail-container-line">
-        <hr className="graph-detail-separation-line"></hr>
+        <hr className="graph-detail-separation-line"/>
       </div>
     </div>
   );

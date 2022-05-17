@@ -21,15 +21,11 @@
   height: 115px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 66px;
-  top: 63px;
+  transform: translate(15%, -110%);
 }
 
 .circle-number {
