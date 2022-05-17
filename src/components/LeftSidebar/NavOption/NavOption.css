@@ -1,0 +1,19 @@
+.nav-option {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  margin-bottom: 33px;
+  align-items: center;
+}
+
+.square-option {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ffffff;
+}
+
+.option-name {
+  margin-left: 19px;
+  color: #858a9d;
+  font-size: 10px;
+}

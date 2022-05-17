@@ -1,0 +1,36 @@
+.header-container {
+  width: auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e7f1;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.gray-square {
+  width: 15px;
+  height: 15px;
+  background: #c4c4c4;
+  margin: 3px;
+}
+
+.gray-circle {
+  width: 31px;
+  height: 31px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+
+.header-text {
+  margin-right: 10px;
+  font-size: 12px;
+}
